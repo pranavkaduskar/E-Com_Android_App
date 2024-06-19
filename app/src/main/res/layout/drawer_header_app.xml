@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="240dp"
+    android:orientation="vertical"
+    android:background="@color/black">
+
+    <ImageView
+        android:id="@+id/headerimg"
+        android:layout_width="120dp"
+        android:layout_height="110dp"
+        android:padding="10dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginStart="10dp"
+        android:src="@drawable/profile"/>
+
+    <TextView
+        android:id="@+id/txtnav"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:padding="10dp"
+        android:text="User Name"
+        android:layout_below="@+id/headerimg"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+</RelativeLayout>

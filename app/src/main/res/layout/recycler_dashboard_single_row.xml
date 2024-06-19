@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="360dp"
+        android:layout_height="360dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:padding="15dp"
+        android:src="@drawable/product"/>
+    <TextView
+        android:id="@+id/productId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image"
+        android:text="00"
+        android:layout_toRightOf="@id/Style"/>
+    <TextView
+        android:id="@+id/Style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="list_item"/>
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@id/Style"/>
+    <Button
+        android:id="@+id/Buybutton"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Add_To_Cart"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="15dp"
+        android:text="Buy Now"
+        android:textSize="20sp" />
+    <Button
+        android:id="@+id/Add_To_Cart"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Style"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="60dp"
+        android:text="Add To Cart"/>
+    <Button
+        android:id="@+id/Add_TO_favorite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Favorite"
+        android:layout_below="@+id/More_Info"
+        android:layout_marginTop="0dp"
+        android:padding="0dp"
+        android:layout_marginLeft="15dp"/>
+    <Button
+        android:id="@+id/More_Info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/price"
+        android:text="More Info"
+        android:layout_margin="15dp"
+        />
+
+</RelativeLayout>

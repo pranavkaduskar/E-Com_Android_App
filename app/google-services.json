@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "739688758284",
+    "firebase_url": "https://sunglass-hosting-application-default-rtdb.firebaseio.com",
+    "project_id": "sunglass-hosting-application",
+    "storage_bucket": "sunglass-hosting-application.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:739688758284:android:d5d468a019ecfccb090229",
+        "android_client_info": {
+          "package_name": "com.brand.store"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "739688758284-3pavodgih8o5dt6o6qb45sdrndobq6r2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtsflkMC3nYszVGLp5gsVEKhZ0lfsx6l0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "739688758284-3pavodgih8o5dt6o6qb45sdrndobq6r2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:739688758284:android:108846b0767227fa090229",
+        "android_client_info": {
+          "package_name": "com.brand.sunglasshosting"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "739688758284-3pavodgih8o5dt6o6qb45sdrndobq6r2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtsflkMC3nYszVGLp5gsVEKhZ0lfsx6l0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "739688758284-3pavodgih8o5dt6o6qb45sdrndobq6r2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:739688758284:android:b770f716a91ba615090229",
+        "android_client_info": {
+          "package_name": "com.store.blasianin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "739688758284-3pavodgih8o5dt6o6qb45sdrndobq6r2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtsflkMC3nYszVGLp5gsVEKhZ0lfsx6l0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "739688758284-3pavodgih8o5dt6o6qb45sdrndobq6r2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
